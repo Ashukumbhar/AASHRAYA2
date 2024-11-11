@@ -1,0 +1,165 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    align-items: center;
+    background-color: #004aad;
+    padding: 1em;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo {
+    height: 50px;
+    margin-right: auto;
+}
+
+.navbar a {
+    color: pink;
+    text-decoration: none;
+    padding: 0 1em;
+    font-weight: bold;
+}
+
+.donate-button {
+    background-color: #ff9800;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+}
+
+/* Hero Section */
+.hero {
+    background: url('hero-background.jpg') no-repeat center center/cover;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: orange;
+    text-align: center;
+}
+
+/* Sections */
+.section {
+    padding: 4em 2em;
+    text-align: center;
+}
+
+.team-images, .diary-images, .newsletter-images, .donor-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5em;
+    margin-top: 2em;
+}
+
+.team-images img, .diary-images img, .newsletter-images img, .donor-images img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.google-forms ul {
+    list-style-type: none;
+}
+
+.google-forms a {
+    color: #004aad;
+    font-weight: bold;
+    text-decoration: underline;
+
+    #mentorship-matching {
+        padding: 2em;
+        margin: 2em 0;
+        background-color:aqua;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        text-align: center;
+    }
+    
+    #mentorship-matching h2 {
+        color: #004aad;
+        font-size: 2em;
+        margin-bottom: 1em;
+    }
+    
+    .mentor-signup {
+        background-color: pink;
+        padding: 2em;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        max-width: 500px;
+        margin: 0 auto;
+    }
+    
+    .mentor-signup h3 {
+        font-size: 1.5em;
+        color: #333;
+        margin-bottom: 1em;
+    }
+    
+    #mentor-form {
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+    }
+    
+    #mentor-form input, 
+    #mentor-form select, 
+    #mentor-form textarea, 
+    #mentor-form button {
+        padding: 0.8em;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 1em;
+        width: 100%;
+        max-width: 100%;
+    }
+    
+    #mentor-form input, 
+    #mentor-form select, 
+    #mentor-form textarea {
+        background-color: pink;
+    }
+    
+    #mentor-form textarea {
+        resize: vertical;
+    }
+    
+    #mentor-form button {
+        background-color: #004aad;
+        color: pink;
+        font-weight: bold;
+        cursor: pointer;
+        transition: background-color 0.3s;
+        border: none;
+    }
+    
+    #mentor-form button:hover {
+        background-color: #003680;
+    }
+    
+    #mentor-form select option {
+        padding: 0.5em;
+    }
+}
+
+footer {
+    background-color: #004aad;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    margin-top: 2em;
+}

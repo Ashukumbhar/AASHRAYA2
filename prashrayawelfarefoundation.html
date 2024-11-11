@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AASHRAYA - Empowering Education</title>
+    <link rel="stylesheet" href="prashrayacss.css">
+    <script src="functionaashraya.ts" defer></script>
+
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header>
+        <div class="navbar">
+            <img src="data:image/jpeg;base64,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" alt="AASHRAYA Logo" class="logo">
+            <a href="#home">Home</a>
+            <a href="#about">About Us</a>
+            <a href="#contact">Contact Us</a>
+            <a href="#donate" class="donate-button">Donate Now</a>
+        </div>
+    </header>
+
+    <!-- Main Page with Logo and Hero Section -->
+    <section id="home" class="hero">
+        <h1>Welcome to AASHRAYA</h1>
+        <p>Empowering Underprivileged Children through Education</p>
+        <button onclick="scrollToSection('about')">Learn More</button>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="section about">
+        <h2>About Us</h2>
+        <div class="about-content">
+            <h3> 
+                <b><u>PRASHRAYA WELFARE FOUNDATION(Team Aashraya) </b></u>
+                <br> Founded 2019|Incorporated 2022|Aashraya</br>
+                 <br>India's leading youth led NPO</br>
+                 <br>Shiksa|Shakti|Paryavaran|Vastra|Chikitsa</br>
+                 <li><a href="https://www.instagram.com/priyanshu_aashraya_07?igsh=MXF3OTFibmJ2bXdtcA==" target="_blank">Founder:@priyanshu_aashraya_07</a></li></h3>
+                 <h4>Our Vision</h4>
+            <p>Empowering children with education to create a brighter future.
+            </p>
+            <h5>Our Mission</h5>
+            <p>To provide access to resources and mentorship to underprivileged children through our programs.
+            </p>
+        </div>
+    </section>
+
+    <!-- Our Team Section -->
+    <section id="team" class="section team">
+        <h2>Our Team</h2>
+        <p>Meet the passionate individuals behind AASHRAYA’s mission.</p>
+        <div class="team-images">
+            <img src="https://www.instagram.com/aashraya_07/p/DCA8sifKi6q/" alt="Team Member 1">
+            <img src="team2.jpg" alt="Team Member 2">
+            <img src="team3.jpg" alt="Team Member 3">
+            <img src="team4.jpg" alt="Team Member 4">
+            <img src="team5.jpg" alt="Team Member 5">
+            <img src="team6.jpg" alt="Team Member 6">
+        </div>
+    </section>
+
+    <!-- Volunteer Diaries Section -->
+    <section id="volunteer-diaries" class="section diaries">
+        <h2>Volunteer Diaries</h2>
+        <p>Stories and moments shared by our volunteers.</p>
+        <div class="diary-images">
+            <img src="diary1.jpg" alt="Diary Image 1">
+            <img src="diary2.jpg" alt="Diary Image 2">
+            <img src="diary3.jpg" alt="Diary Image 3">
+            <img src="diary4.jpg" alt="Diary Image 4">
+            <img src="diary5.jpg" alt="Diary Image 5">
+            <img src="diary6.jpg" alt="Diary Image 6">
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section id="newsletters" class="section newsletters">
+        <h2>Our Newsletters</h2>
+        <div class="newsletter-images">
+            <img src="newsletter1.jpg" alt="Newsletter Image 1">
+            <img src="newsletter2.jpg" alt="Newsletter Image 2">
+            <img src="newsletter3.jpg" alt="Newsletter Image 3">
+            <img src="newsletter4.jpg" alt="Newsletter Image 4">
+            <img src="newsletter5.jpg" alt="Newsletter Image 5">
+            <img src="newsletter6.jpg" alt="Newsletter Image 6">
+        </div>
+    </section>
+
+    <!-- Donor Stories Section -->
+    <section id="donor-stories" class="section donor-stories">
+        <h2>Proud Donor Stories</h2>
+        <div class="donor-images">
+            <img src="donor1.jpg" alt="Donor Image 1">
+            <img src="donor2.jpg" alt="Donor Image 2">
+            <img src="donor3.jpg" alt="Donor Image 3">
+            <img src="donor4.jpg" alt="Donor Image 4">
+            <img src="donor5.jpg" alt="Donor Image 5">
+            <img src="donor6.jpg" alt="Donor Image 6">
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact">
+        <h2>Contact Us</h2>
+        <p>We’d love to hear from you! Reach out to us for more information on our programs.</p>
+        <div class="google-forms">
+            <ul>
+                <li><a href="https://docs.google.com/forms/d/e/1FAIpQLScshDT4nOJjGdK2JmuZ7LApOdG1dIAgjiAIMuB-Oo859Fcp-g/viewform" target="_blank">Aashraya Recruitment Drive</a></li>
+                <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSeaeM2ErfcILgtoPryGY1vcPNvqRqWuYk6P9va2vUQHgKTYBw/viewform" target="_blank">Shiksha Sponsorship Registration</a></li>
+                <li><a href="https://docs.google.com/forms/d/e/1FAIpQLScXbzPHTFl9xEVDPrZYPwn97IzHrmrrZxtztahxuROiDiFdtg/viewform" target="_blank">Aashraya Internship Program</a></li>
+                <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSdvyUjU_5uWv9YmO95O_3wuKd8PiW6pNDpU8KiDf9W-Qvkrdw/viewform?usp=send_form" target="_blank">Social Diwali Campaign</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Donate Section -->
+    <section id="donate" class="section donate">
+        <h2>Banking Details</h2>
+        <p><strong>Name:</strong> PRASHRAYA WELFARE FOUNDATION</p>
+        <p><strong>Account No:</strong> 50200078446212</p>
+        <p><strong>IFSC Code:</strong> HDFC0000404 (HDFC Bank)</p>
+        <p><strong>UPI ID:</strong> prashrayawelfarefoun.62727038@hdfcbank</p>
+    </section>
+    <section id="school-locator">
+        <h2>Ashram School Locator</h2>
+        <input type="text" id="location-input" placeholder="Enter your location or pin code">
+        <button onclick="findSchools()">Find Schools</button>
+        <li><a href="https://maps.app.goo.gl/AgSqggWu4LyjBicNA">find schools</a></li>
+        <div id="map"></div>
+    </section>
+    
+    <script>
+        function initMap() {
+            const map = new google.maps.Map(document.getElementById("map"), {
+                zoom: 10,
+                center: { lat: -34.397, lng: 150.644 },
+            });
+        }
+    
+        function findSchools() {
+            // Logic to search for schools based on user input
+        }
+    </script>
+       
+       <section id="mentorship-matching">
+        <h2>Mentorship Matching</h2>
+        <div class="mentor-signup">
+            <h3>Become a Mentor</h3>
+            <form id="mentor-form">
+                <input type="text" placeholder="Full Name" required>
+                <input type="text" placeholder="Location" required>
+                <select>
+                    <option value="">Expertise</option>
+                    <option value="math">Mathematics</option>
+                    <option value="science">Science</option>
+                    <!-- more options -->
+                </select>
+                <textarea placeholder="Availability and Interests"></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <p>© 2024 AASHRAYA. All Rights Reserved.</p>
+        <img src=""
+    </footer>
+
+</body>
+</html>
